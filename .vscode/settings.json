@@ -1,5 +1,7 @@
 {
+    "team.showWelcomeMessage": false,
     "python.pythonPath": "env\\Scripts\\python.exe",
+    "python.venvPath": "${workspaceFolder}env/Scripts/python.exe",
     "editor.formatOnSave": true,
     "python.linting.pycodestyleEnabled": true,
     "python.linting.pylintPath": "pylint",
