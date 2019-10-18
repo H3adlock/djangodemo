@@ -1,1 +1,1 @@
-# djangodemo
+# Basic Ecommerce Portal using React Django
