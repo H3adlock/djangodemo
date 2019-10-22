@@ -15,7 +15,7 @@
     "redux-thunk": "^2.3.0",
     "semantic-ui-react": "^0.88.1",
     "node-sass-chokidar": "0.0.2",
-    "npm-run-all": "^4.0.2",
+    "npm-run-all": "^4.0.2"
   },
   "scripts": {
     "build-css": "node-sass-chokidar src/ -o src/",
@@ -24,7 +24,7 @@
     "start": "npm-run-all -p watch-css start-js",
     "build": "npm run build-css && react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
