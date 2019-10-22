@@ -14,15 +14,15 @@ class Command(BaseCommand):
 
         # logic to rename the project
 
-        files_to_rename = ['backend/settings/base.py', 'backend/wsgi.py',
+        files_to_rename = ['django-backend/settings/base.py', 'django-backend/wsgi.py',
                            'manage.py', 'core/management/commands/rename.py']
-        folder_to_rename = 'backend'
+        folder_to_rename = 'django-backend'
 
         for f in files_to_rename:
             with open(f, 'r') as file:
                 filedata = file.read()
 
-            filedata = filedata.replace('backend', new_project_name)
+            filedata = filedata.replace('django-backend', new_project_name)
 
             with open(f, 'w') as file:
                 file.write(filedata)
