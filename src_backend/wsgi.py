@@ -1,5 +1,5 @@
 """
-WSGI config for src-backend project.
+WSGI config for src_backend project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'src-backend.settings.production')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'src_backend.settings.production')
 
 application = get_wsgi_application()
