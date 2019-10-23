@@ -33,7 +33,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'django-backend.urls'
+ROOT_URLCONF = 'src-backend.urls'
 
 TEMPLATES = [
     {
@@ -51,7 +51,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'django-backend.wsgi.application'
+WSGI_APPLICATION = 'src-backend.wsgi.application'
 
 
 # Password validation
