@@ -28,7 +28,7 @@ class Header extends Component {
                 <div id="navbarBasicExample" className={"navbar-menu" + menuActive} >
                     <div className="navbar-end">
                         <Link to="/" className="navbar-item">Dashboard</Link>
-                        <Link to="/track" className="navbar-item">Track</Link>
+                        <Link to="/order" className="navbar-item">Orders</Link>
                         <div className="navbar-item has-dropdown is-hoverable">
                             <Link to="/" className="navbar-link">Account</Link>
                             <div className="navbar-dropdown">
